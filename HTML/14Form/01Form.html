@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag In HTML</title>
+</head>
+
+<body>
+    <h1>Form Tag In HTML</h1>
+    <hr>
+    <!-- action => The action attribute specifies where to send the form-data when a form is submitted. Path of Backend Script <br> -->
+    <!-- method => The method attribute specifies the HTTP method to use when sending form-data.  -->
+    <!-- get => The GET method appends the form data to the URL in name/value pairs.  -->
+    <!-- post => The POST method sends the form data as an HTTP post transaction. -->
+    <!-- enctype => The enctype attribute specifies how the form-data should be encoded when submitting it to the server.  -->
+
+    <!-- ? => string  -->
+    <!-- & => used to separate multiple parameters in the query string. -->
+    <br>
+
+    <!-- <form action="" method="get"> -->
+
+    <fieldset>
+
+        <legend>Personal Information</legend>
+        <form action="" method="post" enctype="multipart/form-data">
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="username" ` placeholder="Enter your name" />
+            <br>
+            <br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" />
+            <br>
+            <br>
+            <button type="submit">Submit</button>
+
+        </form>
+    </fieldset>
+
+    <hr>
+    <hr>
+    <h2>Task Of The Day</h2>
+    <img src="../../Images/form.jpg" alt="Task" width="100%">
+</body>
+
+</html>
